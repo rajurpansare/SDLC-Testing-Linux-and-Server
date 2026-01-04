@@ -1,0 +1,59 @@
+----Backup Verification of Apache (2026-01-04)----
+drwxr-xr-x root/root         0 2026-01-04 20:49 etc/nginx/
+drwxr-xr-x root/root         0 2026-01-04 20:55 etc/nginx/conf.d/
+-rw-r--r-- root/root       154 2026-01-04 20:55 etc/nginx/conf.d/mike.cof
+drwxr-xr-x root/root         0 2025-11-20 05:30 etc/nginx/default.d/
+-rw-r--r-- root/root      1077 2025-11-20 05:30 etc/nginx/fastcgi.conf
+-rw-r--r-- root/root      1077 2025-11-20 05:30 etc/nginx/fastcgi.conf.default
+-rw-r--r-- root/root      1007 2025-11-20 05:30 etc/nginx/fastcgi_params
+-rw-r--r-- root/root      1007 2025-11-20 05:30 etc/nginx/fastcgi_params.default
+-rw-r--r-- root/root      2837 2025-11-20 05:30 etc/nginx/koi-utf
+-rw-r--r-- root/root      2223 2025-11-20 05:30 etc/nginx/koi-win
+-rw-r--r-- root/root      5349 2025-11-20 05:30 etc/nginx/mime.types
+-rw-r--r-- root/root      5349 2025-11-20 05:30 etc/nginx/mime.types.default
+-rw-r--r-- root/root      1983 2025-11-20 05:30 etc/nginx/nginx.conf
+-rw-r--r-- root/root      2656 2025-11-20 05:30 etc/nginx/nginx.conf.default
+-rw-r--r-- root/root       636 2025-11-20 05:30 etc/nginx/scgi_params
+-rw-r--r-- root/root       636 2025-11-20 05:30 etc/nginx/scgi_params.default
+-rw-r--r-- root/root       664 2025-11-20 05:30 etc/nginx/uwsgi_params
+-rw-r--r-- root/root       664 2025-11-20 05:30 etc/nginx/uwsgi_params.default
+-rw-r--r-- root/root      3610 2025-11-20 05:30 etc/nginx/win-utf
+drwxr-xr-x mike/mike         0 2026-01-04 21:01 usr/share/nginx/html/
+drwxr-xr-x mike/mike         0 2025-12-29 00:23 usr/share/nginx/html/icons/
+lrwxrwxrwx mike/mike         0 2025-11-20 05:30 usr/share/nginx/html/icons/poweredby.png -> ../../../pixmaps/poweredby.png
+lrwxrwxrwx mike/mike         0 2025-11-20 05:30 usr/share/nginx/html/index.html -> ../../testpage/index.html
+-rw-r--r-- mike/mike       368 2025-11-20 05:30 usr/share/nginx/html/nginx-logo.png
+lrwxrwxrwx mike/mike         0 2025-11-20 05:30 usr/share/nginx/html/poweredby.png -> nginx-logo.png
+lrwxrwxrwx mike/mike         0 2025-11-20 05:30 usr/share/nginx/html/system_noindex_logo.png -> ../../pixmaps/system-noindex-logo.png
+---Apache Backup Verification Compleet.---
+----Backup Verification of Apache (2026-01-05)----
+drwxr-xr-x root/root         0 2026-01-03 12:02 etc/httpd/
+drwxr-xr-x root/root         0 2026-01-04 20:24 etc/httpd/conf.d/
+-rw-r--r-- root/root       400 2025-09-08 05:30 etc/httpd/conf.d/README
+-rw-r--r-- root/root      2916 2025-09-08 05:30 etc/httpd/conf.d/autoindex.conf
+-rw-r--r-- root/root      1252 2025-09-08 05:30 etc/httpd/conf.d/userdir.conf
+-rw-r--r-- root/root       653 2025-09-08 05:30 etc/httpd/conf.d/welcome.conf
+-rw-r--r-- root/root       226 2026-01-04 20:24 etc/httpd/conf.d/sarah.conf
+drwxr-xr-x root/root         0 2026-01-03 12:19 etc/httpd/conf/
+-rw-r--r-- root/root     13430 2025-09-08 05:30 etc/httpd/conf/magic
+-rw-r--r-- root/root     12007 2026-01-03 12:18 etc/httpd/conf/httpd.conf
+drwxr-xr-x root/root         0 2026-01-03 12:02 etc/httpd/conf.modules.d/
+-rw-r--r-- root/root      3382 2025-09-08 05:30 etc/httpd/conf.modules.d/00-base.conf
+-rw-r--r-- root/root       139 2025-09-08 05:30 etc/httpd/conf.modules.d/00-dav.conf
+-rw-r--r-- root/root       948 2025-09-08 05:30 etc/httpd/conf.modules.d/00-mpm.conf
+-rw-r--r-- root/root       787 2025-09-08 05:30 etc/httpd/conf.modules.d/00-optional.conf
+-rw-r--r-- root/root      1073 2025-09-08 05:30 etc/httpd/conf.modules.d/00-proxy.conf
+-rw-r--r-- root/root       367 2025-09-08 05:30 etc/httpd/conf.modules.d/01-cgi.conf
+-rw-r--r-- root/root       496 2025-09-08 05:30 etc/httpd/conf.modules.d/README
+-rw-r--r-- root/root        45 2025-08-20 05:30 etc/httpd/conf.modules.d/10-h2.conf
+-rw-r--r-- root/root        57 2025-08-20 05:30 etc/httpd/conf.modules.d/10-proxy_h2.conf
+-rw-r--r-- root/root        41 2025-09-08 05:30 etc/httpd/conf.modules.d/00-lua.conf
+-rw-r--r-- root/root        47 2025-09-08 05:30 etc/httpd/conf.modules.d/00-brotli.conf
+-rw-r--r-- root/root        88 2025-09-08 05:30 etc/httpd/conf.modules.d/00-systemd.conf
+lrwxrwxrwx root/root         0 2025-09-08 05:30 etc/httpd/logs -> ../../var/log/httpd
+lrwxrwxrwx root/root         0 2025-09-08 05:30 etc/httpd/modules -> ../../usr/lib64/httpd/modules
+lrwxrwxrwx root/root         0 2025-09-08 05:30 etc/httpd/run -> /run/httpd
+lrwxrwxrwx root/root         0 2025-09-08 05:30 etc/httpd/state -> ../../var/lib/httpd
+drwxr-xr-x sarah/sarah       0 2026-01-04 20:31 var/www/html/
+-rw-r--r-- sarah/sarah      41 2026-01-04 20:31 var/www/html/index.html
+---Apache Backup Verification Compleet.---
